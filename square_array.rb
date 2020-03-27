@@ -6,3 +6,11 @@ def square_array(array)
   end
   new_array
 end
+
+def squared_array(array)
+  array.collect do |element|
+    element ** 2
+  end
+end
+
+array1 = [1, 2, 3]
