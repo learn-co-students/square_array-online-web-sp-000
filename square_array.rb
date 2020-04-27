@@ -1,9 +1,4 @@
 def square_array(array)
-  b = 0
-  arraytwo = []
-  array.each do |i|
-    arraytwo[b] = i**2
-    b += 1
-  end
-  arraytwo
+b = array.collect |a| (a**2)
+  b
 end
