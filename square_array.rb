@@ -5,3 +5,7 @@ def square_array(array)
   end
   newbie
 end
+
+# def square_array(array)
+#   array.collect { |index| index**2 }
+# end
