@@ -7,3 +7,6 @@ def square_array(array)
   end
   return new_array
 end
+
+squared_array = square_array(array)
+puts squared_array
