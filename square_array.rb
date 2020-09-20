@@ -11,3 +11,8 @@ def square_array(array)
   array.each { |element| squared_array << element ** 2}
   squared_array
 end
+
+# def squared_array(array)
+#   array.collect { |element| element ** 2 }
+# end
+
