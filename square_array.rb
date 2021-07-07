@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  sqr_array = []
+  array.each {|e| sqr_array << (e*e) }
+  sqr_array
 end
